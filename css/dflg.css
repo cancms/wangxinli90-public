@@ -669,7 +669,7 @@ a,a:hover,a:focus {
 }
 
 .index-company .bd {
-  background: url('../images/bg1.jpg') no-repeat left center
+  background: url('../images/home/about-bg1.jpg') no-repeat left center
 }
 
 
@@ -1103,4 +1103,8 @@ a,a:hover,a:focus {
   transform: translateY(-50%) rotate(90deg);
   border-left-color: #6c151f
 }
+
+
+
+
 
