@@ -1108,3 +1108,223 @@ a,a:hover,a:focus {
 
 
 
+
+.banner_img+.crumbs {
+  margin-top: -0.6rem;
+  margin-bottom: 0
+}
+
+.crumbs {
+  line-height: 40px;
+  background-color: #f6f6f6;
+  padding-left: 20px;
+  margin-bottom: clamp(calc(55 / 2 * 1px), calc(55 / 1200 * 100vw), 55px)
+}
+
+.crumbs a {
+  color: #666
+}
+
+.crumbs a:hover {
+  color: #6c151f
+}
+
+.crumbs a:first-child {
+  padding-left: 24px;
+  background: url('../images/site.png') no-repeat left center
+}
+
+.crumbs b {
+  font-family: bold;
+  color: #6c151f
+}
+
+
+.talent-box .row {
+  margin-left: calc(-1 * clamp(calc(10 / 2 * 1px), calc(10 / 1200 * 100vw), 10px)) !important;
+  margin-right: calc(-1 * clamp(calc(10 / 2 * 1px), calc(10 / 1200 * 100vw), 10px)) !important
+}
+
+.talent-box .row.stretch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch
+}
+
+.talent-box .row.stretch::before {
+  display: none
+}
+
+.talent-box .row.stretch li>.inner,.talent-box .row.stretch li>a {
+  height: 100%
+}
+
+.talent-box .row>* {
+  padding-left: clamp(calc(10 / 2 * 1px), calc(10 / 1200 * 100vw), 10px) !important;
+  padding-right: clamp(calc(10 / 2 * 1px), calc(10 / 1200 * 100vw), 10px) !important;
+  margin-bottom: calc(clamp(calc(10 / 2 * 1px), calc(10 / 1200 * 100vw), 10px) * 2)
+}
+
+.talent-box .row li {
+  margin-bottom: clamp(calc(40 / 2 * 1px), calc(40 / 1200 * 100vw), 40px)
+}
+
+.talent-box .inner {
+  border-bottom: 4px solid #6c151f;
+  display: block
+}
+
+.talent-box .inner .cimgbox {
+  padding-bottom: 121.70212766%
+}
+
+.talent-box .inner .info {
+  background: #f6f6f6;
+  padding: 22px
+}
+
+.talent-box .inner .name {
+  font-size: 20px;
+  font-family: bold;
+  margin-bottom: 10px
+}
+
+.talent-box .inner .position {
+  font-size: 16px;
+  color: #666
+}
+
+.talent-box .inner:hover .info {
+  background-color: #6c151f
+}
+
+.talent-box .inner:hover .info * {
+  color: #fff
+}
+
+
+
+
+
+.team-topper {
+  margin-bottom: clamp(calc(50 * 1px), calc(70 / 1200 * 100vw), 70px)
+}
+
+
+
+.team-topper .content .name {
+  color: #6c151f;
+  font-family: bold;
+  font-size: clamp(calc(22 * 1px), calc(36 / 1200 * 100vw), 36px);
+  padding: 10px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-bottom-width: 2px;
+  margin-bottom: clamp(calc(26 / 2 * 1px), calc(26 / 1200 * 100vw), 26px);
+  position: relative
+}
+
+.team-topper .content .name::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: #6c151f;
+  left: 0;
+  bottom: -2px
+}
+
+.team-topper .content .txt {
+  font-size: 16px;
+  line-height: 1.76;
+  color: #666
+}
+
+
+.team-topper .data li {
+  font-size: 16px;
+  line-height: 36px
+}
+
+.teaminfo-box .tit2 {
+  margin-bottom: 20px
+}
+
+.teaminfo-box .base-box {
+  margin-bottom: 26px;
+  background: #f6f6f6
+}
+
+.teaminfo-box .base-box .hd2 {
+  margin-bottom: 0
+}
+
+.teaminfo-box .base-box .bd {
+  padding: 20px 20px 40px
+}
+
+.teaminfo-box .base-box .rmore {
+  width: fit-content;
+  margin: 0 auto 0;
+  display: block;
+  text-decoration: none
+}
+
+.teaminfo-box .base-box .rmore em {
+  padding-left: 30px;
+  background: url(../images/pdf.png) no-repeat left center
+}
+
+.teaminfo-box .base-box .rmore:hover em {
+  background-image: url('../images/pdf_f.png')
+}
+
+.tit2 {
+  font-size: clamp(calc(20 * 1px), calc(24 / 1200 * 100vw), 24px);
+  font-family: bold
+}
+
+.person-list {
+  margin-left: calc(-1 * clamp(calc(30 / 2 * 1px), calc(30 / 1200 * 100vw), 30px)) !important;
+  margin-right: calc(-1 * clamp(calc(30 / 2 * 1px), calc(30 / 1200 * 100vw), 30px)) !important;
+  text-align: center
+}
+
+.person-list.stretch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch
+}
+
+.person-list.stretch::before {
+  display: none
+}
+
+.person-list.stretch li>.inner,.person-list.stretch li>a {
+  height: 100%
+}
+
+.person-list>* {
+  padding-left: clamp(calc(30 / 2 * 1px), calc(30 / 1200 * 100vw), 30px) !important;
+  padding-right: clamp(calc(30 / 2 * 1px), calc(30 / 1200 * 100vw), 30px) !important;
+  margin-bottom: calc(clamp(calc(30 / 2 * 1px), calc(30 / 1200 * 100vw), 30px) * 2)
+}
+
+.person-list .pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover
+}
+
+.person-list .name {
+  font-size: 20px;
+  font-family: bold;
+  margin: 20px 0 10px
+}
+
+.person-list .position {
+  font-size: 16px;
+  color: #666
+}
+
